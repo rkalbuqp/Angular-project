@@ -9,9 +9,6 @@
     "test": "ng test",
     "build:ssr": "ng build && ng run petshop:server",
     "serve:ssr": "node dist/petshop/server/main.js",
-    "prerender": "ng run petshop:prerender",
-    "build:ssr": "ng build && ng run petshop:server",
-    "serve:ssr": "node dist/petshop/server/main.js",
     "prerender": "ng run petshop:prerender"
   },
   "private": true,
