@@ -1,15 +1,15 @@
 .footer {
-  background-color: #f8f9fa;
+  background-color: #ececf0;
   padding: 10px 0;
   position: fixed;
-  bottom: -20px;
+  bottom: -1px;
   width: 100%;
   .footer-content {
     display: flex;
     justify-content: space-around;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
     color: #6c757d;
     font-size: 10px;
 
@@ -61,4 +61,13 @@
       }
     }
   }
+}
+
+.copyright {
+  font-size: 12px;
+  color: #9ea6ac;
+  margin-bottom: 50px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
 }
