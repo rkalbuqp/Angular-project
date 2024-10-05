@@ -1,0 +1,56 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  position: fixed;
+  bottom: -20px;
+  width: 100%;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #6c757d;
+  font-size: 10px;
+}
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+.footer .footer-content .footer-section h3 {
+  font-size: 18px;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+.footer .footer-content .footer-section p {
+  line-height: 1.6;
+  color: #6c757d;
+}
+.footer .footer-content .footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .footer-content .footer-section ul li {
+  margin: 8px 0;
+}
+.footer .footer-content .footer-section ul li a {
+  text-decoration: none;
+  color: #6c757d;
+}
+.footer .footer-content .footer-section ul li a:hover {
+  color: #343a40;
+}
+.footer .footer-content .footer-section .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer .footer-content .footer-section .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+.footer .footer-content .footer-section .payment-icons img {
+  width: 40px;
+  height: 24px;
+  margin-right: 10px;
+}/*# sourceMappingURL=footer.component.css.map */
