@@ -1,24 +1,40 @@
+body {
+  background-color: #ffa500; /* Cor laranja como fundo */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o body ocupe toda a altura da página */
+  margin: 0; /* Remove margens padrão */
+  font-family: Arial, sans-serif; /* Define uma fonte padrão */
+  color: #333; /* Cor padrão para o texto */
+}
+
+.main {
+  flex: 1; /* Faz o main ocupar o espaço disponível */
+  padding: 20px; /* Adiciona um padding */
+}
+
 .footer {
-  background-color: #ececf0;
-  padding: 10px 0;
-  position: fixed;
-  bottom: -1px;
-  width: 100%;
+  background-color: #ff7e00; /* Manter o fundo do footer */
+  padding: 20px 0; /* Aumenta o padding */
+  width: 100%; /* Ajusta a largura para 100% */
+  margin: 0; /* Remove margens */
+  position: relative; /* Ajuste para footer não ficar fixo */
+
   .footer-content {
     display: flex;
     justify-content: space-around;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     color: #6c757d;
-    font-size: 10px;
+    font-size: 14px; /* Aumenta o tamanho da fonte */
 
     .footer-section {
       flex: 1;
       padding: 0 20px;
 
       h3 {
-        font-size: 18px;
+        font-size: 20px; /* Aumenta o tamanho do título */
         color: #343a40;
         margin-bottom: 10px;
       }
@@ -26,6 +42,7 @@
       p {
         line-height: 1.6;
         color: #6c757d;
+        font-size: 14px; /* Aumenta o tamanho do texto */
       }
 
       ul {
@@ -64,10 +81,8 @@
 }
 
 .copyright {
-  font-size: 12px;
-  color: #9ea6ac;
-  margin-bottom: 50px;
-  justify-content: center;
-  justify-items: center;
+  font-size: 14px; /* Aumenta o tamanho da fonte do copyright */
+  color: #333;
+  margin-top: 10px; /* Ajusta a margem */
   text-align: center;
 }

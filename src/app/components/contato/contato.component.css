@@ -1,1 +1,82 @@
-/*# sourceMappingURL=contato.component.css.map */
+main {
+  padding: 20px;
+}
+main .hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 80px;
+  border-radius: 10px;
+}
+main .hero-section .hero-content {
+  max-width: 50%;
+}
+main .hero-section .hero-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+main .hero-section .hero-content p {
+  color: #666;
+  margin-top: 10px;
+}
+main .hero-section .hero-content .shop-now-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff7e00;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+main .hero-section .hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+main .contact-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+main .contact-section .contact-form {
+  width: 50%;
+}
+main .contact-section .contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+main .contact-section .contact-form form .form-group {
+  margin-bottom: 20px;
+}
+main .contact-section .contact-form form input,
+main .contact-section .contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+main .contact-section .contact-form form .send-message-btn {
+  background-color: #ff7e00;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+main .contact-section .contact-info {
+  width: 40%;
+}
+main .contact-section .contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+main .contact-section .contact-info ul li {
+  margin-bottom: 15px;
+}
+main .contact-section .contact-info ul li i {
+  margin-right: 10px;
+  color: #ff7e00;
+}
+main .map-section {
+  margin-top: 40px;
+}/*# sourceMappingURL=contato.component.css.map */
