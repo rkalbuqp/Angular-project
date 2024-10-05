@@ -36,4 +36,8 @@ nav li {
   color: #272626;
   font-weight: 700;
   text-transform: uppercase;
-}/*# sourceMappingURL=nav-bar.component.css.map */
+} /*# sourceMappingURL=nav-bar.component.css.map */
+
+a {
+  cursor: pointer;
+}
