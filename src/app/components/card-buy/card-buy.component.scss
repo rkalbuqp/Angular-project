@@ -1,0 +1,55 @@
+$color-gray: rgba(248, 249, 250, 1);
+$color-hover: rgb(236, 236, 236);
+$color-favorited: rgb(255, 0, 0);
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-gray;
+  width: fit-content;
+  border-radius: 20px;
+
+  .img {
+    background-color: $color-gray;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .container_info {
+    position: relative;
+    padding: 0.5rem 1rem;
+
+    .icon {
+      display: flex;
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 5%;
+
+      background-color: $color-gray;
+      border-radius: 50px;
+      padding: 0.4rem;
+      cursor: pointer;
+
+      img {
+        width: 1rem;
+      }
+
+      &:hover {
+        background-color: $color-hover;
+      }
+
+      &.favorited {
+        background-color: $color-favorited;
+      }
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+  }
+}
