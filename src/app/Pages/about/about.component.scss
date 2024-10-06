@@ -87,3 +87,13 @@ main {
     margin-top: 40px;
   }
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.team {
+  margin-top: 70px;
+}
