@@ -1,0 +1,21 @@
+<article class="container_main">
+  <img
+    [src]="img"
+    class="img"
+    alt="Imagem de compra do item {{ title }}"
+    width="250"
+    height="250"
+  />
+  <div class="container_info">
+    <h3>{{ title }}</h3>
+    <p>{{ formattedPrice }}</p>
+
+    <div
+      (click)="handleFavorited()"
+      [ngClass]="{ icon: true, favorited: isFavorited }"
+      class="icon"
+    >
+      <img src="./assets/images/icons/coracao.png" alt="Icone de favoritar" />
+    </div>
+  </div>
+</article>
