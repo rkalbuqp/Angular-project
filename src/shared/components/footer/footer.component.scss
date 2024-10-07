@@ -23,12 +23,10 @@ body {
   .footer-content {
     display: flex;
     justify-content: space-around;
-    // max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
     color: #6c757d;
     font-size: 14px; /* Aumenta o tamanho da fonte */
-    @media (max-width: 636px) {
+    @media (max-width: 500px) {
       width: 100%;
       overflow-x: auto;
       display: flex;
