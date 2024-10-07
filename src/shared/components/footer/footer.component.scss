@@ -14,11 +14,7 @@ $color-favorited: rgb(255, 0, 0);
   .footer-content {
     display: flex;
     justify-content: space-around;
-    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
-    color: #1d2022;
-    font-size: 14px;
 
     .footer-section {
       flex: 1;
@@ -61,14 +57,7 @@ $color-favorited: rgb(255, 0, 0);
           height: 24px;
         }
       }
-
-      &.pet-shop {
-        position: relative; /* Permite o uso do .patinhas como fundo */
-
-        .paw {
-          font-size: 24px; /* Aumenta o tamanho do emoji */
-        }
-      }
+      
     }
   }
 
