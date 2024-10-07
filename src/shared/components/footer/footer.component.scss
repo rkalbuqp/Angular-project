@@ -1,36 +1,20 @@
-body {
-  background-color: #ffa500; /* Cor laranja como fundo */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Garante que o body ocupe toda a altura da página */
-  margin: 0; /* Remove margens padrão */
-  font-family: Arial, sans-serif; /* Define uma fonte padrão */
-  color: #333; /* Cor padrão para o texto */
-}
-
-.main {
-  flex: 1; /* Faz o main ocupar o espaço disponível */
-  padding: 20px; /* Adiciona um padding */
-}
+$color-gray: rgba(248, 249, 250, 1);
+$color-hover: rgb(236, 236, 236);
+$color-favorited: rgb(255, 0, 0);
 
 .footer {
-  background-color: #ff7e00; /* Manter o fundo do footer */
+  background-color: #ff7e00; /* Fundo laranja do footer */
   padding: 20px 0; /* Aumenta o padding */
   width: 100%; /* Ajusta a largura para 100% */
-  margin: 0; /* Remove margens */
-  position: relative; /* Ajuste para footer não ficar fixo */
+  position: relative; /* Para que a marca d'água fique corretamente posicionada */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .footer-content {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    color: #6c757d;
-    font-size: 14px; /* Aumenta o tamanho da fonte */
-    @media (max-width: 592px) {
-      width: 100%;
-      overflow-x: auto;
-      display: flex;
-    }
 
     .footer-section {
       flex: 1;
@@ -38,13 +22,13 @@ body {
 
       h3 {
         font-size: 20px; /* Aumenta o tamanho do título */
-        color: #343a40;
+        color: #1d2022;
         margin-bottom: 10px;
       }
 
       p {
         line-height: 1.6;
-        color: #6c757d;
+        color: #1d2022;
         font-size: 14px; /* Aumenta o tamanho do texto */
       }
 
@@ -57,9 +41,9 @@ body {
 
           a {
             text-decoration: none;
-            color: #6c757d;
+            color: #1d2022;
             &:hover {
-              color: #343a40;
+              color: #253b52;
             }
           }
         }
@@ -73,19 +57,20 @@ body {
           height: 24px;
         }
       }
-
-      .payment-icons img {
-        width: 100%;
-        height: 24px;
-        margin-right: 10px;
-      }
+      
     }
   }
-}
 
-.copyright {
-  font-size: 14px; /* Aumenta o tamanho da fonte do copyright */
-  color: #333;
-  margin-top: 10px; /* Ajusta a margem */
-  text-align: center;
+  .copyright {
+    font-size: 14px; /* Aumenta o tamanho da fonte do copyright */
+    color: #333;
+    margin-top: 10px; /* Ajusta a margem */
+    text-align: center;
+  }
+
+  .payment-icons img {
+    width: 200px;
+    height: 20px;
+    margin-right: 2px;
+  }
 }
