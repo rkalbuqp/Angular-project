@@ -1,0 +1,27 @@
+<section
+  [ngStyle]="{
+    'padding-top': type === 'primary' ? '10rem' : 'auto',
+    'flex-direction': posImg === 'left' ? 'row-reverse' : 'row'
+  }"
+  class="container_main"
+>
+  <ng-container *ngIf="type === 'primary'">
+    <img
+      *ngFor="let icon of icons; let index = index"
+      [alt]="!index ? 'Decoração de ave' : 'Detalhe laranja'"
+      [class]="'icon pos_' + (index + 1)"
+      [src]="icon"
+    />
+  </ng-container>
+
+  <div [ngClass]="{ container_content: true, in_right: posImg === 'left' }">
+    <span class="span">Pet Shop</span>
+    <h2 class="title">{{ title }}</h2>
+    <p class="text">{{ text }}</p>
+    <ng-container *ngIf="button"> </ng-container>
+  </div>
+
+  <div>
+    <img [src]="img" class="img" alt="Imagem principal" width="800" priority />
+  </div>
+</section>

@@ -23,7 +23,6 @@
     "paths": {
       "@Pages/*": ["app/Pages/*"],
       "@assets/*": ["assets/*"],
-      "@styles/*": ["shared/styles/*"],
       "@components/*": ["shared/components/*"]
     }
   },
