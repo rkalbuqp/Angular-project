@@ -1,7 +1,7 @@
 $gap: 2rem;
 
 @mixin apllyGrid($columns) {
-  grid-template-columns: repeat($columns, (100% / $columns));
+  grid-template-columns: repeat($columns, calc(100% / $columns));
 }
 
 .container_main {
@@ -12,7 +12,11 @@ $gap: 2rem;
   max-width: 75rem;
   margin: auto;
 
-  padding: 2rem;
+  padding: 0 2rem 4rem 2rem;
+
+  &.first {
+    padding-top: 4rem;
+  }
 
   .title {
     font-size: 1.5rem;

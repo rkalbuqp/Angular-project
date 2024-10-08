@@ -5,6 +5,29 @@
     img="./assets/images/doguinho.png"
   />
 
+  <app-container-grid title="Browse by category" [first]="true">
+    <app-category
+      img="./assets/images/category/Img1.png"
+      title="Accessories"
+      [qnt]="84"
+    />
+    <app-category
+      img="./assets/images/category/Img1.png"
+      title="Food"
+      [qnt]="64"
+    />
+    <app-category
+      img="./assets/images/category/Img1.png"
+      title="Furniture"
+      [qnt]="22"
+    />
+    <app-category
+      img="./assets/images/category/Img1.png"
+      title="Bags"
+      [qnt]="16"
+    />
+  </app-container-grid>
+
   <app-container-grid title="Featured products">
     <app-card-buy
       img="./assets/images/cards-buy/CatBowl.png"
@@ -23,7 +46,15 @@
     />
   </app-container-grid>
 
-  <app-container-grid title="Best selling products">
+  <app-image-block
+    title="The smarter way to shop for your pet"
+    text="Lorem ipsum dolor sit amet consectetur. At et vehicula sodales est proin turpis pellentesque sinulla a aliquam amet rhoncus quisque eget sit"
+    img="./assets/images/section_cat.png"
+    type="secondary"
+    posImg="left"
+  />
+
+  <app-container-grid title="Best selling products" [first]="true">
     <app-card-buy
       img="./assets/images/cards-buy/CatBowl.png"
       title="Cat Bowl"
