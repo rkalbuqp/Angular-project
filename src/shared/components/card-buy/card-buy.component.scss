@@ -39,6 +39,7 @@ $color-favorited: rgb(212, 24, 24);
       padding: 0.4rem;
 
       img {
+        position: relative;
         width: 1rem;
         user-select: none;
       }
@@ -61,4 +62,11 @@ $color-favorited: rgb(212, 24, 24);
       font-weight: bold;
     }
   }
+}
+
+.promo-icon{
+  width: 70px;
+      position: absolute;
+
+      z-index: 1;
 }

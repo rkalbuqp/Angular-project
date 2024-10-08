@@ -6,12 +6,13 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './card-buy.component.html',
-  styleUrl: './card-buy.component.scss'
+  styleUrl: './card-buy.component.scss',
 })
 export class CardBuyComponent {
   isFavorited: boolean = false;
-  @Input() img: string = "";
-  @Input() title: string = "";
+  @Input() promo: string = '';
+  @Input() img: string = '';
+  @Input() title: string = '';
   @Input() price: number = 0;
 
   ngOnInit(): void {
@@ -29,10 +30,10 @@ export class CardBuyComponent {
   }
 
   handleFavorited() {
-    this.isFavorited = !this.isFavorited
+    this.isFavorited = !this.isFavorited;
   }
 
   get formattedPrice() {
-    return `R$ ${this.price}`.replace(".", ",")
+    return `R$ ${this.price}`.replace('.', ',');
   }
 }
