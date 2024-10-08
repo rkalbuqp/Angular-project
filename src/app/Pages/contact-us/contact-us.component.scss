@@ -1,41 +1,6 @@
 main {
   padding: 20px;
 
-  .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f9f9f9;
-    padding: 80px;
-    border-radius: 10px;
-
-    .hero-content {
-      max-width: 50%;
-      h1 {
-        font-size: 2.5rem;
-        color: #333;
-      }
-      p {
-        color: #666;
-        margin-top: 10px;
-      }
-      .shop-now-btn {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #ff7e00;
-        color: white;
-        border-radius: 5px;
-        text-decoration: none;
-      }
-    }
-
-    .hero-image img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
   .contact-section {
     display: flex;
     justify-content: space-between;
@@ -69,13 +34,16 @@ main {
 
     .contact-info {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       ul {
         list-style: none;
         padding: 0;
         li {
           margin-bottom: 15px;
+
           i {
-            margin-right: 10px;
             color: #ff7e00;
           }
         }

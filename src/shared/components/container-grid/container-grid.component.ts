@@ -10,4 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class ContainerGridComponent {
   @Input() title: string = ""
+  @Input() first: boolean = false
 }
