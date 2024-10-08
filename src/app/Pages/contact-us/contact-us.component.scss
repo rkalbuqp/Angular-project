@@ -34,13 +34,16 @@ main {
 
     .contact-info {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       ul {
         list-style: none;
         padding: 0;
         li {
           margin-bottom: 15px;
+
           i {
-            margin-right: 10px;
             color: #ff7e00;
           }
         }
